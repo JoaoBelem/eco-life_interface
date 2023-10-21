@@ -38,7 +38,7 @@ async function fetchGet() {
     container.className = 'control-item ' + item.class;
 
     const icon = document.createElement('img');
-    icon.setAttribute('src', './img/objetos/' + item.class + '.svg');
+    icon.setAttribute('src', 'img/objetos/' + item.class + '.svg');
     console.log(item);
 
     const title = document.createElement('h3');
