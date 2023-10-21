@@ -5,8 +5,6 @@ body {
   background-attachment: fixed;
   text-align: center;
   font-family: 'Montserrat';
-  // color: #fff;
-  min-width: 100vh;
 }
 img{
   -webkit-user-drag: none;
@@ -16,7 +14,7 @@ img{
 }
 
 .logo {
-  max-width: 35%;
+  max-width: 35vw;
   text-indent: -999px;
 }
 
@@ -186,27 +184,40 @@ h3 {
 
 @media (max-width: 800px) {
   *{
-    outline: 1px solid red;
+    box-sizing: border-box;
+  }
+
+  .container{
+    width: 100vw;
+    overflow-x: hidden;
+    margin-bottom: 0;
   }
 
   .logo{
-    width: 80%;
-    max-width: 100%;
+    width: 80vw;
+    max-width: 80vw;
+  }
+
+  h2{
+    font-size: 1.4rem;
   }
   
   #controls{
-    width: 80%;
+    width: 100vw;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding-bottom: 6rem;
   }
   .control-item{
     img{
-      height: 60px;
-      width: 60px;
+      height: 50px;
+      width: 50px;
     }
     h3{
-      font-size: 2rem;
+      font-size: 1rem;
     }
     button{
-      height: 140px;
+      height: 74px;
     }
   }
 }
