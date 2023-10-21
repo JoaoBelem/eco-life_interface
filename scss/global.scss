@@ -75,7 +75,7 @@ h3 {
 
   &.off {
     button {
-      background: url('./img/svg/on.svg') no-repeat center center #ffffff;
+      background: url('../img/svg/on.svg') no-repeat center center #ffffff;
       &:hover {
         box-shadow: 0 0 15px #7dff7d;
       }
@@ -88,7 +88,7 @@ h3 {
 
   &.on {
     button {
-      background: url('./img/svg/off.svg') no-repeat center center #ffffff;
+      background: url('../img/svg/off.svg') no-repeat center center #ffffff;
       &:hover {
         box-shadow: 0 0 15px rgb(255, 121, 121);
       }
