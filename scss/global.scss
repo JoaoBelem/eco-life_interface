@@ -139,7 +139,7 @@ h3 {
 }
 
 .light {
-  background: linear-gradient(90deg, #4de461, #138fa5);
+  background: linear-gradient(-90deg, #80d15f, #138fa5);
 }
 
 .door {
@@ -206,7 +206,9 @@ h3 {
     width: 100vw;
     border-radius: 0;
     margin-bottom: 0;
-    padding-bottom: 6rem;
+    &:not(.loading){
+      padding-bottom: 6rem;
+    }
   }
   .control-item{
     img{
